@@ -348,3 +348,116 @@ ul{
 .poptour_carousel-item{
     display: block;
 }
+
+.section-advantages{
+    background: #f8f7f7;
+}
+
+.advantages_title{
+    padding: 45px 0 60px;
+    font-size: 30px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.advantages_content{
+    display: flex;
+    padding-bottom: 74px;
+}
+
+.advantages_text::-webkit-scrollbar {
+    width: 10px;
+}
+
+.advantages_text::-webkit-scrollbar-track {
+    background: #e1e0e0;
+    border: 4px solid transparent;
+    background-clip: content-box;   /* THIS IS IMPORTANT */
+}
+
+.advantages_text::-webkit-scrollbar-thumb {
+    /* background: #fbd341; */
+    background: #fbd341;
+    border-radius: 10px;
+
+    
+}
+
+.advantages_text{
+    padding: 70px 50px 0 90px;
+    font-size: 17px;
+    line-height: 1.35;
+    overflow-y: scroll;
+    max-height: 310px;
+    
+}
+
+.section_form{
+    background-size: cover;
+}
+
+.section_form-shadow{
+    background: rgba(0, 0, 0, 0.55);
+    padding-bottom: 42px;
+}
+
+.form{
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 30px 50px 40px;
+    background: rgba(0, 0, 0, 0.6);
+}
+
+.form::after{
+    content: '';
+}
+
+.form_title{
+    padding: 45px 0 35px;
+    font-size: 30px;
+    color: #fff;
+}
+
+.form_input-holder {
+    background-color: transparent;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.40);
+        padding: 0;
+    position: relative;
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+    margin-right: 35px;
+}
+
+.form_input {
+    background-color: transparent;
+    border: none;
+    outline: none;
+    box-shadow: none;
+    width: 100%;
+    margin: 0;
+    padding: 2px 5px;
+    font-size: 15px;
+    line-height: 1.32em;
+    position: relative;
+    z-index: 2;
+    color: #fff;
+}
+
+.form_input::-moz-placeholder {color: #fff; }
+.form_input::-webkit-input-placeholder { color: #fff; }
+.form_input:-ms-input-placeholder { color: #fff; }
+.form_input::-ms-input-placeholder { color: #fff; }
+.form_input::placeholder { color: #fff; } 
+
+.select_placeholder{
+    display: none;
+}
+
+.select_options{
+    color: #000;
+}
+
+.select_options:hover {
+    color: #fbd341;
+}

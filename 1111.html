@@ -1,0 +1,131 @@
+
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+40
+41
+42
+43
+44
+45
+46
+47
+48
+49
+50
+51
+52
+53
+54
+55
+56
+57
+58
+59
+60
+61
+62
+63
+64
+65
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style>
+ 
+.block {
+    display: inline-block;
+    vertical-align: top;
+    overflow: hidden;
+    border: solid #ddd 1px;
+    max-width: 100%;
+    width: 440px;
+    box-sizing: content-box;
+}
+ 
+.block optgroup {
+    font-weight: normal;
+    font-style: normal;
+    color: #222;
+    font-size: 14px;
+}
+ 
+.block option {
+    color: #222;
+    box-sizing: content-box;
+    filter: hue-rotate(125deg);
+    font-size: 14px!important;
+    padding: 10px;
+}
+ 
+ 
+.block select {
+    max-width: 100%;
+    border: none;
+    box-sizing: content-box;
+    width: 440px;
+    outline: none;
+    padding: 10px;
+}
+ 
+@-moz-document url-prefix() {.block option{
+	text-indent: 15px!important;
+}}
+ 
+.block option:nth-of-type(1) {
+    margin-top: 15px;
+}
+</style>
+</head>
+<body>
+<div class="block">
+<div class="block-container"><select id="cap" name="cap" size="6" autofocus="">
+<optgroup label="--Выберите вариант верхней части сайта--">
+<option class="opt" selected="selected" value="1">Вариант 1</option>
+<option class="opt" value="2">Вариант 2</option>
+<option class="opt" value="3">Вариант 3</option>
+<option class="opt" value="4">Вариант 4</option>
+<option class="opt" value="5">Вариант 5</option>
+</optgroup>
+</select></div>
+</div>
+</body>
+</html>
